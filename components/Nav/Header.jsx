@@ -29,7 +29,8 @@ const Header = () => {
             <button className='text-base border-2 px-6 py-4 text-white'>Contact us</button>
         </div>
 
-        <input type="checkbox" id="navi-toggle" className="checkbox" />
+       <div className='hidden sm:block'>
+       <input type="checkbox" id="navi-toggle" className="checkbox" />
   <label for="navi-toggle" className="button">
     <div className="icon">
     <FaBars />
@@ -47,6 +48,7 @@ const Header = () => {
       <li className="item"> <a className="link"> Link 6 </a> </li>
     </ul>
   </nav>
+       </div>
     </header>
   )
 }

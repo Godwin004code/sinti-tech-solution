@@ -1,3 +1,5 @@
+'use client'
+
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
@@ -9,6 +11,7 @@ export default function Home() {
   return (
     
       <>
+      
       <section className="w-full build">
       <Header />
       <Hero />
@@ -19,6 +22,7 @@ export default function Home() {
       <Contact />
       <section className="footer py-6">
         <Footer />
+        <p className="text-base text-white font-normal text-center">© 2023 SinTi, All Rights Reserved</p>
       </section>
       </>
   )

@@ -1,4 +1,4 @@
-
+'use client'
 
 import Play from "../Hero/Group 162527.png"
 import Add from "./add (1).png"
@@ -6,9 +6,11 @@ import { FiFigma } from "react-icons/fi"
 import { IoCodeSlash } from "react-icons/io"
 import { VscProject } from "react-icons/vsc"
 import { BsCodeSlash } from "react-icons/bs"
+import { Element } from "react-scroll"
 
 export default function Services() {
     return (
+        <Element name="service">
         <section className="w-[80%] mx-auto pt-24 pb-32">
             <div className="">
                     <img src={Play.src} alt="play icon" />
@@ -41,9 +43,17 @@ export default function Services() {
                         <VscProject className="text-[#FEDC5A]"  />
                     </div>
                     <h2 className="text-white text-2xl font-semibold my-7">Project Management</h2>
-                    <p className="text-white text-lg font-normal">We provide UI/UX Design services, and of course with the best quality</p>
+                    <p className="text-white text-lg font-normal">Efficient project management for teams, tasks, and timelines.</p>
+                </div>
+                <div className="text-center">
+                <div className="bg-[#679e561a] w-[100px] h-[100px] rounded-full flex items-center justify-center mx-auto">
+                        <VscProject className="text-[#8bfe5a]"  />
+                    </div>
+                    <h2 className="text-white text-2xl font-semibold my-7">Product marketing</h2>
+                    <p className="text-white text-lg font-normal">We provide strategic product marketing to boost your brand and sales success.</p>
                 </div>
             </section>
         </section>
+        </Element>
     )
 }

@@ -1,5 +1,10 @@
 
 import Logo from "../../public/sinti-logo-zip-file/png/logo-no-background.png";
+import Link from "next/link";
+import { FaSquareXTwitter } from "react-icons/fa6"
+import { FaLinkedin } from "react-icons/fa"
+import { AiFillMail } from "react-icons/ai"
+import { ImMail } from "react-icons/im"
 
 export default function Footer() {
     return (
@@ -7,9 +12,16 @@ export default function Footer() {
             <section className="sm:mb-7">
                 <img src={Logo.src} alt="footer logo" className='w-[200px]  h-[40px]' />
             </section>
-            <section className="my-auto">
-                <p className="text-base text-white font-normal">© 2023 SinTi, All Rights Reserved</p>
+            <section className="my-auto flex">
+                <Link href="https://twitter.com/SintiTech1137" className="text-white text-4xl">
+                <FaSquareXTwitter />
+                </Link>
+                <Link href="https://www.linkedin.com/company/sinti-tech-solutions/" className="text-white text-4xl">
+                <FaLinkedin />
+                </Link>
+                
             </section>
+            
         </footer>
     )
 }

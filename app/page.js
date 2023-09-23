@@ -5,6 +5,7 @@ import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Header from "@/components/Nav/Header";
 import Services from "@/components/Service/Service";
+import { Element } from "react-scroll";
 
 
 export default function Home() {
@@ -14,7 +15,10 @@ export default function Home() {
       
       <section className="w-full build">
       <Header />
+      <Element name='home'>
       <Hero />
+      </Element>
+      
       </section>
       <section className="w-full services">
         <Services />
@@ -22,7 +26,7 @@ export default function Home() {
       <Contact />
       <section className="footer py-6">
         <Footer />
-        <p className="text-base text-white font-normal text-center">© 2023 SinTi, All Rights Reserved</p>
+        <p className="text-base text-white font-normal text-center mt-5">© 2023 SinTi, All Rights Reserved</p>
       </section>
       </>
   )

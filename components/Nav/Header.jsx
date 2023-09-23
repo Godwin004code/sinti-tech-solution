@@ -25,7 +25,7 @@ const Header = () => {
       <nav className='align-middle w-2/5 my-auto md:hidden'>
         <ul className='flex align-middle justify-between  '>
           <li className='text-lg'>
-            <Link activeClass="active" className='text-white cursor-pointer' to="test1" spy={true} smooth={true} offset={50} duration={500} >
+            <Link activeClass="active" className='text-white cursor-pointer' to="home" spy={true} smooth={true} offset={50} duration={500} >
               Home
             </Link>
           </li>
@@ -53,7 +53,7 @@ const Header = () => {
 
       <div className='hidden sm:block'>
         <input type="checkbox" id="navi-toggle" className="checkbox" ref={inputRef} />
-        <label for="navi-toggle" className="button">
+        <label htmlFor="navi-toggle" className="button">
           <div className="icon">
             <FaBars />
           </div>
@@ -63,26 +63,23 @@ const Header = () => {
 
         <nav className="nav">
           <ul className="list" onClick={closeNav}>
-            <li className='text-lg' >
-              <Link activeClass="active" className='text-white cursor-pointer' to="test1" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
+            <li className='text-3xl' >
+              <Link activeClass="active" className='text-white cursor-pointer' to="home" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
                 Home
               </Link>
             </li>
-            <li className='text-lg'>
+            <li className='text-3xl my-7'>
               <Link activeClass="active" className='text-white cursor-pointer' to="service" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
                 Service
               </Link>
             </li>
-            <li className='text-lg'>
+            <li className='text-3xl'>
               <Link activeClass="active" className='text-white cursor-pointer' to="test1" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
                 Our Project
               </Link>
             </li>
-            <li className='text-lg'>
-              <Link activeClass="active" className='text-white cursor-pointer' to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
-                Contact
-              </Link>
-            </li>
+            
+            <button className='text-3xl border-2 px-6 py-4 text-white mt-7' onClick={meetingSchedule}>Contact us</button>
           </ul>
         </nav>
       </div>

@@ -13,7 +13,7 @@ export default function Hero() {
             <section className="w-[45%] md:w-[90%]">
                 <h2 className="text-5xl text-white font-bold w-[100%] tracking-wider md:overflow-y-hidden">Build Your Awesome Platform</h2>
                 <p className="text-lg text-white my-14 ">Sinti Tech is a digital studio that offers <Typical
-        steps={['UI/UX Design', 2000, 'Web development', 2000, 'Project management', 2000]}
+        steps={['UI/UX Design', 4000, 'Web development', 4000, 'Project management', 4000, 'Product marketing', 4000]}
         loop={Infinity}
         wrapper="span"
       /> to developers, we will provide the best service for those of you who use our services.</p>

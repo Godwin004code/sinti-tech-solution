@@ -186,3 +186,9 @@ background: linear-gradient(180deg, rgba(84, 84, 212, 0.20) 0%, rgba(84, 84, 212
   top: 0;
   transform: rotate(-135deg);
 }
+
+
+
+.right-arrow:hover {
+  transform: rotate(-45deg);
+}

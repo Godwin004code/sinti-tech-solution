@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           </li>
           <li className='text-lg'>
-            <Link activeClass="active" className='text-white cursor-pointer' to="test1" spy={true} smooth={true} offset={50} duration={500} >
+            <Link activeClass="active" className='text-white cursor-pointer' to="projects" spy={true} smooth={true} offset={50} duration={500} >
               Our Project
             </Link>
           </li>
@@ -74,7 +74,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='text-3xl'>
-              <Link activeClass="active" className='text-white cursor-pointer' to="test1" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
+              <Link activeClass="active" className='text-white cursor-pointer' to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeNav}>
                 Our Project
               </Link>
             </li>

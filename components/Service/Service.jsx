@@ -17,7 +17,7 @@ export default function Services() {
                 </div>
             <section className="flex justify-between">
                 <div></div>
-                <h2 className="text-white text-center text-7xl font-bold my-auto md:overflow-y-hidden">The Service We Provide For You</h2>
+                <h2 className="text-white text-center text-7xl font-bold my-auto overflow-y-hidden">The Service We Provide For You</h2>
                 <div className="mt-auto">
                     <img src={Add.src} alt="play icon" />
                 </div>
@@ -45,7 +45,7 @@ export default function Services() {
                     <h2 className="text-white text-2xl font-semibold my-7">Project Management</h2>
                     <p className="text-white text-lg font-normal">Efficient project management for teams, tasks, and timelines.</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center mt-8">
                 <div className="bg-[#679e561a] w-[100px] h-[100px] rounded-full flex items-center justify-center mx-auto">
                         <VscProject className="text-[#8bfe5a]"  />
                     </div>

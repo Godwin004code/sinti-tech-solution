@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
             <section className="flex justify-between w-[80%] mx-auto mt-32 mb-24 sm:flex-col">
                 <div className="w-[60%] sm:w-[100%] sm: mb-7">
-                    <h2 className="font-bold text-6xl text-white md:overflow-y-hidden">Contact us for the service you want to use</h2>
+                    <h2 className="font-bold text-6xl text-white overflow-y-hidden">Contact us for the service you want to use</h2>
 
                         <p className="text-white flex mt-14 ">
                             <ImMail className="my-auto text-4xl" /> <span className="my-auto ml-2"> sintitechsolution@gmail.com</span>

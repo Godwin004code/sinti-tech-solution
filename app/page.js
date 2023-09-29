@@ -4,6 +4,7 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Header from "@/components/Nav/Header";
+import Project from "@/components/Projects/Project";
 import Services from "@/components/Service/Service";
 import { Element } from "react-scroll";
 
@@ -22,6 +23,9 @@ export default function Home() {
       </section>
       <section className="w-full services">
         <Services />
+      </section>
+      <section className="w-full services">
+        <Project />
       </section>
       <Contact />
       <section className="footer py-6">

@@ -21,7 +21,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://blackscholar.info"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://blackscholar.info"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div>
             <div className="relative rounded-xl mx-8 md:mx-0 md:mt-8">
@@ -30,7 +30,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://tempho.ca/version-test/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://tempho.ca/version-test/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div> 
             <div className="relative rounded-xl md:mt-8">
@@ -39,7 +39,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://takedown-temp.netlify.app/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://takedown-temp.netlify.app/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div>
             </section>
@@ -50,7 +50,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://findmycleaner.net/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://findmycleaner.net/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div>
             <div className="relative rounded-xl mx-8 md:mx-0 md:mt-8">
@@ -59,7 +59,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://factomobile.app/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://factomobile.app/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div>
             <div className="relative rounded-xl md:mt-8">
@@ -68,7 +68,7 @@ function Project() {
                 </div>
                 <div className="flex justify-between bg-[#19171780] absolute  w-[100%] bottom-0 h-[60px] text-white px-7 ">
                         <p className="text-2xl my-auto"></p>
-                        <Link href={"https://letsgo.dreamtrips.com/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
+                        <Link target="_blank" href={"https://letsgo.dreamtrips.com/"} className="my-auto"><FaArrowRight className="right-arrow text-3xl my-auto" /></Link>
                 </div>
             </div>
             </section>
